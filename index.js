@@ -23,7 +23,7 @@ function appendDriver (name) {
 }
 
 function prependDriver (name) {
-  let newdrivers = drivers.splice(0, "name");
+  let newdrivers = [...drivers, (name)];
   return newdrivers
 }
 
