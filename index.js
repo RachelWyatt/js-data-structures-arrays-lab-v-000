@@ -25,6 +25,6 @@ function removeLastDriver () {
   let newdrivers = drivers.push(name);
 }
 
-function removeFirstDriver (name) {
+function removeFirstDriver () {
   let newdrivers = drivers.push(name);
 }
