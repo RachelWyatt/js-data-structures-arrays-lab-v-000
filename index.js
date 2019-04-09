@@ -22,6 +22,11 @@ function appendDriver (name) {
   return newdrivers
 }
 
+function prependDriver (name) {
+  let newdrivers = drivers.splice(0, "name");
+  return newdrivers
+}
+
 function removeLastDriver () {
  let newdrivers = drivers.slice(0, drivers.length - 1);
  return newdrivers
